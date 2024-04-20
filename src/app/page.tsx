@@ -1,6 +1,7 @@
 import Blog from "@/components/Blog";
 import Categories from "@/components/Categories";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 import HealthTips from "@/components/HealthTips";
 import Packages from "@/components/Packages";
 import Sections from "@/components/Sections";
@@ -14,6 +15,7 @@ export default function Home() {
       <Sections />
       <Blog />
       <Contact />
+      <Footer />
     </main>
   );
 }
