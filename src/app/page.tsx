@@ -1,6 +1,7 @@
 import Categories from "@/components/Categories";
 import HealthTips from "@/components/HealthTips";
 import Packages from "@/components/Packages";
+import Sections from "@/components/Sections";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Packages />
       <HealthTips />
       <Categories />
+      <Sections />
     </main>
   );
 }
