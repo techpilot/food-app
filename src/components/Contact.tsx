@@ -10,7 +10,7 @@ const Contact = () => {
       <p className="text-center text-xl lg:text-3xl font-semibold text-[#012970] capitalize">
         Contact Us
       </p>
-      <div className="h-[26rem] flex items-center justify-between gap-5">
+      <div className="h-[26rem] flex flex-col md:flow-row items-center justify-between gap-5">
         <div className="w-full h-full flex flex-col gap-5">
           <div className="h-[50%] flex justify-between gap-5">
             <div className="h-full w-[50%] bg-[#fafbff] rounded-md p-7 flex flex-col gap-2 justify-around">
