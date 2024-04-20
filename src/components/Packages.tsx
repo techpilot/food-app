@@ -6,10 +6,7 @@ import sea_food from "@/assets/images/sea-food.png";
 
 const Packages = () => {
   return (
-    <div className="px-3 md:px-20 py-3 flex flex-col gap-[1rem]">
-      <p className="uppercase text-center text-xs md:text-sm font-medium text-[#4154f1]">
-        Packages
-      </p>
+    <div className="px-3 md:px-20 py-5 flex flex-col gap-[1rem]">
       <p className="text-center text-xl lg:text-3xl font-semibold text-[#012970] capitalize">
         Check our international Delicacies
       </p>

@@ -13,7 +13,7 @@ const styles = {
   getConnectedWrapper: "flex flex-col mb-12 lg:mb-0 gap-3",
   socialIcons: "ml-0 lg:ml-10 mt-3 flex gap-4 items-center",
   informedWrapper:
-    "flex flex-col items-center lg:mb-0 gap-5 w-full md:w-[30rem] mx-auto",
+    "flex flex-col items-center lg:mb-0 gap-3 w-full md:w-[30rem] mx-auto",
   subscribe:
     "font-semibold text-white bg-[#4154f1] h-full px-4 outline-none border-none text-sm rounded-tr-md rounded-br-md",
   anchor: "hover:text-[#4154f1] text-[#012970]",
@@ -23,7 +23,9 @@ const Footer = () => {
   return (
     <div className="md:py-[5rem] flex flex-col gap-[3rem] bg-[#fafbff]">
       <form className={styles?.informedWrapper}>
-        <p className="font-semibold">Stay informed</p>
+        <p className="text-center text-xl lg:text-2xl font-semibold text-[#012970]">
+          Our Newsletter
+        </p>
         <p className="text-center">
           Subscribe to our notification to receive updates of new products and
           services.

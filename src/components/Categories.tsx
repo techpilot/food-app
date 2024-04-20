@@ -31,14 +31,11 @@ const Categories = () => {
 
   return (
     <div className="px-3 md:px-20 py-3 flex flex-col gap-[1rem] mb-[5rem]">
-      <p className="uppercase text-center text-xs md:text-sm font-medium text-[#4154f1]">
-        Categories
-      </p>
-      <p className="text-center text-xl lg:text-3xl font-semibold text-[#012970] capitalize">
+      <p className="text-center text-xl lg:text-3xl font-semibold text-[#012970] capitalize mt-[1rem]">
         Explore different categories of our culinaries
       </p>
 
-      <div className="flex gap-5 justify-center items-center">
+      <div className="flex gap-3 justify-center items-center">
         <p
           onClick={() => setSelectedOption("all")}
           className={`py-1 px-5 rounded-3xl border hover:border-[#4154f1] hover:text-[#4154f1] 

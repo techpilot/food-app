@@ -27,9 +27,6 @@ const blogs = [
 const Blog = () => {
   return (
     <div className="px-3 md:px-20 py-3 flex flex-col gap-[1rem] mb-[5rem]">
-      <p className="uppercase text-center text-xs md:text-sm font-medium text-[#4154f1]">
-        blog
-      </p>
       <p className="text-center text-xl lg:text-3xl font-semibold text-[#012970] capitalize">
         Recent posts from our Blog
       </p>
