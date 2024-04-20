@@ -24,7 +24,7 @@ const SectionsCard: React.FC<SectionsCardProps> = ({
       onMouseOver={() => setHovered(true)}
       onMouseOut={() => setHovered(false)}
       className="bg-white shadow-lg h-[28rem] rounded-md flex flex-col 
-        items-center gap-5 hover:scale-110 transition duration-500"
+        items-center gap-5 md:hover:scale-105 lg:hover:scale-110 transition duration-500"
     >
       <div className="w-full h-[15rem] relative">
         <Image
@@ -68,7 +68,7 @@ const SectionsCard: React.FC<SectionsCardProps> = ({
         <p className="lg:text-xl text-[#012970] capitalize font-semibold">
           {name}
         </p>
-        <p className="text-xs lg:text-sm font-medium text-[#5e5e5e] italic leading-[75px]">
+        <p className="text-xs lg:text-sm font-medium text-[#5e5e5e] italic leading-normal">
           {description}
         </p>
       </div>

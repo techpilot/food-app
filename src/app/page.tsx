@@ -1,3 +1,4 @@
+import Blog from "@/components/Blog";
 import Categories from "@/components/Categories";
 import HealthTips from "@/components/HealthTips";
 import Packages from "@/components/Packages";
@@ -10,6 +11,7 @@ export default function Home() {
       <HealthTips />
       <Categories />
       <Sections />
+      <Blog />
     </main>
   );
 }

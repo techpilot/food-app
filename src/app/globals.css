@@ -32,4 +32,8 @@
   .slide-in-right {
     animation: slideInFromRight 0.3s ease-out forwards;
   }
+
+  .transform-rotate {
+    transform: rotate(6deg) scale(1.2);
+  }
 }
