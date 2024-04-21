@@ -5,13 +5,15 @@ import Footer from "@/components/Footer";
 import HealthTips from "@/components/HealthTips";
 import Packages from "@/components/Packages";
 import Sections from "@/components/Sections";
+import SwiperContaier from "@/components/utils/Swiper";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-[3rem]">
+    <main className="flex flex-col gap-[1rem]">
       <Packages />
       <HealthTips />
       <Categories />
+      <SwiperContaier />
       <Sections />
       <Blog />
       <Contact />
