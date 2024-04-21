@@ -21,7 +21,7 @@ const reviews = [
   },
   {
     review:
-      "Finally, a food company that gets vegetarian right! Vior's plant-based options are delicious and creative. Highly recommend! #viorvegetarianlove",
+      "Finally, a food company that gets vegetables right! Vior's plant-based options are delicious and creative. Highly recommend!",
     name: "Halo",
   },
   {
@@ -31,7 +31,7 @@ const reviews = [
   },
   {
     review:
-      "Vior Foods delivers! Their meals are incredibly flavorful and healthy. Perfect for busy folks who still want delicious food. #vioreasymeals",
+      "Vior Foods delivers! Their meals are incredibly flavorful and healthy. Perfect for busy folks who still want delicious food.",
     name: "Obi",
   },
 ];
